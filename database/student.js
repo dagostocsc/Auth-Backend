@@ -31,7 +31,7 @@ const Student = db.define("student", {
 
   image: {
     defaultValue:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fpin%2Fthe-random-person-i-made--19844054600819630%2F&psig=AOvVaw1nA8orGcyvOp7LVd0LXrV_&ust=1751490608495000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLj8x4zJnI4DFQAAAAAdAAAAABAZ",
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgenerated.photos%2Ffaces%2Fmale&psig=AOvVaw2cvDben2rfUiQ4PUM3aw-d&ust=1751845693016000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDY1vXzpo4DFQAAAAAdAAAAABAE",
     type: DataTypes.BLOB, //Blob data types store big files (like images or videos) inside your database
   },
 
