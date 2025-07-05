@@ -17,6 +17,7 @@ const Student = db.define("student", {
   },
   email: {
     type: DataTypes.STRING,
+<<<<<<< HEAD
     allowNull: false,
     validate: { isEmail: true },
   },
@@ -29,6 +30,12 @@ const Student = db.define("student", {
     type: DataTypes.FLOAT,
     allowNull: false,
     validate: { min: 0.0, max: 4.0 },
+=======
+    unique: true,
+    validate: {
+      isEmail: true,
+    },
+>>>>>>> routes
   },
 });
 
