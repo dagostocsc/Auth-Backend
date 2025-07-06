@@ -24,6 +24,7 @@ const Campus = db.define("campus", {
   description: {
     type: DataTypes.TEXT,
     allowNull: false, //This field cannot be empty in the database
+    defaultValue: "No description available",
   },
 });
 

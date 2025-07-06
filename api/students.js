@@ -17,7 +17,7 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     const studentID = Number(req.params.id); //get the id from the url and convert it to a from a string to a integer
-    const student = await Student.findByPk(studentID, { include: Campus });
+    const student = await Student.findByPk(studentID, { include: Campus }); //
     if (student === null) return res.sendStatus(404);
 
     res.status(200).send(student);
