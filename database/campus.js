@@ -22,7 +22,7 @@ const Campus = db.define("campus", {
     allowNull: false, //This field cannot be empty in the database
   },
   description: {
-    type: DataTypes.TEXT,
+    type: DataTypes.TEXT, //creates string with a big font size
     allowNull: false, //This field cannot be empty in the database
     defaultValue: "No description available",
   },
