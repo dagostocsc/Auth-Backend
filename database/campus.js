@@ -13,7 +13,7 @@ const Campus = db.define("campus", {
   },
   imageUrl: {
     type: DataTypes.STRING,
-    allowNull:true,
+    allowNull: true,
     defaultValue:
       "https://render.fineartamerica.com/images/rendered/medium/print/8/5.5/break/images/artworkimages/medium/1/indiana-university-sample-gates-university-icons.jpg",
     validate: { isUrl: true },

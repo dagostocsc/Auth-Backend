@@ -39,9 +39,9 @@ const seed = async () => {
       gpa: 4.0,
     },
     { 
-      firstName: "Phone", 
-      lastName: "Swa",
-      email: "phone@example.com",
+      firstName: "Deborah", 
+      lastName: "Agosto",
+      email: "@example.com",
       gpa: 4.0,
     },
     { 
