@@ -1,5 +1,5 @@
 const db = require("./db");
-const { Duck, User } = require("./index");
+const { User } = require("./index");
 const { Student, Campus } = require("./index");
 
 const seed = async () => {
@@ -10,12 +10,6 @@ const seed = async () => {
     { username: "admin", passwordHash: User.hashPassword("password") },
     { username: "user1", passwordHash: User.hashPassword("password") },
     { username: "user2", passwordHash: User.hashPassword("password") },
-  ]);
-
-  const ducks = await Duck.bulkCreate([
-    { name: "James Pond" },
-    { name: "Quakie Chan" },
-    { name: "Goose" },
   ]);
   
   const campuses = await Campus.bulkCreate([
