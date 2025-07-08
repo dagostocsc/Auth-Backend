@@ -16,8 +16,6 @@ const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
 // body parser middleware
 app.use(express.json());
 
-// cookie parser middleware
-app.use(cookieParser());
 app.use(
   cors({
     origin: FRONTEND_URL,
