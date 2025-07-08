@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { Duck } = require("../database");
+// const { Duck } = require("../database");
 const { authenticateJWT } = require("../auth");
 
 // GET all ducks (public route)
